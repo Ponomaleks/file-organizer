@@ -1,0 +1,37 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "A Node.js CLI utility to analyze, categorize, remove duplicates, and declutter your folder.",
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup",
+    "help": "node file-organizer.js --help",
+    "start": "node file-organizer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ponomaleks/nodejs-file-organizer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "file-organizer",
+    "downloads-folder",
+    "file-management",
+    "duplicate-removal",
+    "file-categorization"
+  ],
+  "author": "Alexander Ponomarenko <ponomaleks@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ponomaleks/nodejs-file-organizer/issues"
+  },
+  "homepage": "https://github.com/Ponomaleks/nodejs-file-organizer#readme",
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
